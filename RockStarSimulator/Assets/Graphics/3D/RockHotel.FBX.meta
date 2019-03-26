@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 485ba3a45a2825a4d99f9d64f26ee522
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back Rest
+    100002: Bed
+    100004: Beer002
+    100006: Beer003
+    100008: Beer004
+    100010: Beer005
+    100012: Beer006
+    100014: Beer1
+    100016: Box001
+    100018: Box002
+    100020: Can002
+    100022: Can003
+    100024: Can004
+    100026: Can005
+    100028: Can1
+    100030: Chair
+    100032: Cupola
+    100034: Desk
+    100036: Door
+    100038: Door2
+    100040: Drawer
+    100042: DrawerHandle
+    100044: Floor
+    100046: FridgeDoor
+    100048: FridgeHandle
+    100050: Handle
+    100052: Handle001
+    100054: Hinge
+    100056: Lamp
+    100058: Laptop
+    100060: Leg003
+    100062: Leg004
+    100064: Leg1
+    100066: Leg2
+    100068: Lid
+    100070: Lobster
+    100072: MiniFridge
+    100074: Painting002
+    100076: Painting1
+    100078: Phone
+    100080: PhoneHandle
+    100082: Pillow1
+    100084: Pillow2
+    100086: Plate
+    100088: //RootNode
+    100090: Seat
+    100092: Trolley
+    100094: TV
+    100096: tvRemote
+    100098: walls
+    100100: Wheel 4
+    100102: Wheel 5
+    100104: Wheel1
+    100106: Wheel2
+    100108: Wheel3
+    100110: Wine1
+    400000: Back Rest
+    400002: Bed
+    400004: Beer002
+    400006: Beer003
+    400008: Beer004
+    400010: Beer005
+    400012: Beer006
+    400014: Beer1
+    400016: Box001
+    400018: Box002
+    400020: Can002
+    400022: Can003
+    400024: Can004
+    400026: Can005
+    400028: Can1
+    400030: Chair
+    400032: Cupola
+    400034: Desk
+    400036: Door
+    400038: Door2
+    400040: Drawer
+    400042: DrawerHandle
+    400044: Floor
+    400046: FridgeDoor
+    400048: FridgeHandle
+    400050: Handle
+    400052: Handle001
+    400054: Hinge
+    400056: Lamp
+    400058: Laptop
+    400060: Leg003
+    400062: Leg004
+    400064: Leg1
+    400066: Leg2
+    400068: Lid
+    400070: Lobster
+    400072: MiniFridge
+    400074: Painting002
+    400076: Painting1
+    400078: Phone
+    400080: PhoneHandle
+    400082: Pillow1
+    400084: Pillow2
+    400086: Plate
+    400088: //RootNode
+    400090: Seat
+    400092: Trolley
+    400094: TV
+    400096: tvRemote
+    400098: walls
+    400100: Wheel 4
+    400102: Wheel 5
+    400104: Wheel1
+    400106: Wheel2
+    400108: Wheel3
+    400110: Wine1
+    2100000: No Name
+    2300000: Back Rest
+    2300002: Bed
+    2300004: Beer002
+    2300006: Beer003
+    2300008: Beer004
+    2300010: Beer005
+    2300012: Beer006
+    2300014: Beer1
+    2300016: Box001
+    2300018: Box002
+    2300020: Can002
+    2300022: Can003
+    2300024: Can004
+    2300026: Can005
+    2300028: Can1
+    2300030: Chair
+    2300032: Cupola
+    2300034: Desk
+    2300036: Door
+    2300038: Door2
+    2300040: Drawer
+    2300042: DrawerHandle
+    2300044: Floor
+    2300046: FridgeDoor
+    2300048: FridgeHandle
+    2300050: Handle
+    2300052: Handle001
+    2300054: Hinge
+    2300056: Lamp
+    2300058: Laptop
+    2300060: Leg003
+    2300062: Leg004
+    2300064: Leg1
+    2300066: Leg2
+    2300068: Lid
+    2300070: Lobster
+    2300072: MiniFridge
+    2300074: Painting002
+    2300076: Painting1
+    2300078: Phone
+    2300080: PhoneHandle
+    2300082: Pillow1
+    2300084: Pillow2
+    2300086: Plate
+    2300088: Seat
+    2300090: Trolley
+    2300092: TV
+    2300094: tvRemote
+    2300096: walls
+    2300098: Wheel 4
+    2300100: Wheel 5
+    2300102: Wheel1
+    2300104: Wheel2
+    2300106: Wheel3
+    2300108: Wine1
+    3300000: Back Rest
+    3300002: Bed
+    3300004: Beer002
+    3300006: Beer003
+    3300008: Beer004
+    3300010: Beer005
+    3300012: Beer006
+    3300014: Beer1
+    3300016: Box001
+    3300018: Box002
+    3300020: Can002
+    3300022: Can003
+    3300024: Can004
+    3300026: Can005
+    3300028: Can1
+    3300030: Chair
+    3300032: Cupola
+    3300034: Desk
+    3300036: Door
+    3300038: Door2
+    3300040: Drawer
+    3300042: DrawerHandle
+    3300044: Floor
+    3300046: FridgeDoor
+    3300048: FridgeHandle
+    3300050: Handle
+    3300052: Handle001
+    3300054: Hinge
+    3300056: Lamp
+    3300058: Laptop
+    3300060: Leg003
+    3300062: Leg004
+    3300064: Leg1
+    3300066: Leg2
+    3300068: Lid
+    3300070: Lobster
+    3300072: MiniFridge
+    3300074: Painting002
+    3300076: Painting1
+    3300078: Phone
+    3300080: PhoneHandle
+    3300082: Pillow1
+    3300084: Pillow2
+    3300086: Plate
+    3300088: Seat
+    3300090: Trolley
+    3300092: TV
+    3300094: tvRemote
+    3300096: walls
+    3300098: Wheel 4
+    3300100: Wheel 5
+    3300102: Wheel1
+    3300104: Wheel2
+    3300106: Wheel3
+    3300108: Wine1
+    4300000: Floor
+    4300002: walls
+    4300004: Door
+    4300006: Handle
+    4300008: Door2
+    4300010: Handle001
+    4300012: Bed
+    4300014: Pillow2
+    4300016: Pillow1
+    4300018: TV
+    4300020: Desk
+    4300022: Drawer
+    4300024: DrawerHandle
+    4300026: Chair
+    4300028: Seat
+    4300030: Back Rest
+    4300032: Wheel1
+    4300034: Wheel3
+    4300036: Wheel2
+    4300038: Wheel 5
+    4300040: Wheel 4
+    4300042: MiniFridge
+    4300044: FridgeDoor
+    4300046: FridgeHandle
+    4300048: Leg1
+    4300050: Leg2
+    4300052: Leg003
+    4300054: Leg004
+    4300056: Painting1
+    4300058: Lamp
+    4300060: Phone
+    4300062: PhoneHandle
+    4300064: tvRemote
+    4300066: Laptop
+    4300068: Hinge
+    4300070: Lid
+    4300072: Beer1
+    4300074: Wine1
+    4300076: Can1
+    4300078: Beer002
+    4300080: Beer003
+    4300082: Beer004
+    4300084: Can002
+    4300086: Can003
+    4300088: Can004
+    4300090: Beer005
+    4300092: Beer006
+    4300094: Trolley
+    4300096: Can005
+    4300098: Cupola
+    4300100: Plate
+    4300102: Lobster
+    4300104: Painting002
+    4300106: Box001
+    4300108: Box002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
