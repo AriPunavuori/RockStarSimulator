@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.rockstarsimulator.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\Projects\\RockStarSimulator\\RockStarSimulator\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "RockStarSimulator [Testing]"
+        }
+      }
+    }
+  ]
+}
