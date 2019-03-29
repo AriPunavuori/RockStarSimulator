@@ -199,6 +199,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+--- !u!1 &1103933249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6314683967691874321, guid: 169a15ef0dd23435c8f86a06d95424e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7585268191335815232}
+  m_PrefabAsset: {fileID: 0}
+--- !u!138 &1103933255
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103933249}
+  m_ConnectedBody: {fileID: 0}
+  m_BreakForce: 100
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &1968908720
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,10 +355,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6314683967689883233, guid: 169a15ef0dd23435c8f86a06d95424e3,
+    - target: {fileID: 1839965645661519683, guid: 169a15ef0dd23435c8f86a06d95424e3,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169a15ef0dd23435c8f86a06d95424e3, type: 3}
