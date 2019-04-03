@@ -6,7 +6,7 @@ public class Breakable : MonoBehaviour {
     public GameObject okVer;
     public GameObject badVer;
     ObjectIntact oi;
-    CapsuleCollider cc;
+    public CapsuleCollider cc;
     Rigidbody rb;
 
     Vector3 pos;
@@ -14,9 +14,9 @@ public class Breakable : MonoBehaviour {
     Vector3 storedPos;
     public float currentVel;
     public float prevVel;
+    public float factor = 0.1f;
 
     private void Awake() {
-        cc = FindObjectOfType<CapsuleCollider>();
         oi = FindObjectOfType<ObjectIntact>();
         rb = FindObjectOfType<Rigidbody>();
     }
@@ -29,7 +29,7 @@ public class Breakable : MonoBehaviour {
         currentVel = Vector3.Distance(pos, prevFramePos);
         prevVel = Vector3.Distance(storedPos, prevFramePos);
 
-        if (currentVel < 0.1f * prevVel && storedPos != Vector3.zero) {
+        if (currentVel < factor * prevVel && storedPos != Vector3.zero) {
             Breakshit();
             //oi.TrashObject();
         }
@@ -40,9 +40,11 @@ public class Breakable : MonoBehaviour {
     }
 
     void Breakshit() {
-        if (badVer = null) {
-            
+        if (badVer != null) {
+            badVer.gameObject.SetActive(true);
+            okVer.gameObject.SetActive(false);
+            cc.enabled = false;
+            oi.TrashObject();
         }
-        oi.TrashObject();
     }
 }
