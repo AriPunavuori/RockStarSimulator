@@ -5,7 +5,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour {
     public TextMeshProUGUI uiText;
-    float totalCost = 0;
+   public float totalCost = 0;
     public float textTimer;
     public float textTime = 5;
 
