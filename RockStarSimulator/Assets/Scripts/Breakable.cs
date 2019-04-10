@@ -15,6 +15,7 @@ public class Breakable : MonoBehaviour {
     public float currentVel;
     public float prevVel;
     public float factor = 0.1f;
+    public float minVel;
 
     private void Awake() {
         oi = FindObjectOfType<ObjectIntact>();
@@ -22,14 +23,14 @@ public class Breakable : MonoBehaviour {
     }
 
 
-    private void FixedUpdate() {
+    private void Update() {
         
         pos = transform.position;
 
         currentVel = Vector3.Distance(pos, prevFramePos);
         prevVel = Vector3.Distance(storedPos, prevFramePos);
 
-        if (currentVel < factor * prevVel && storedPos != Vector3.zero) {
+        if (currentVel < factor * prevVel && storedPos != Vector3.zero && prevVel > minVel) {
             Breakshit();
             //oi.TrashObject();
         }
